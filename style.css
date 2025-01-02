@@ -85,9 +85,10 @@ button:hover {
 .cover-image-right-box h1 {
     color: white;
     margin-top: 10px;
-    font-size: 2.5rem;
-    font-weight: bolder;
+    font-size: 2.0rem;
     text-align: left;
+    font-family: "Poppins", serif;
+    font-weight: 600;
 }
 
 .cover-image-right-box h3 {
@@ -102,8 +103,9 @@ button:hover {
     margin-top: 90px;
     color: white;
     font-family: "Poppins", serif;
-    font-weight: 300;
+    font-weight: 900;
     text-align: right;
+    margin-top: 35px;
     font-size: smaller;
 }
 
