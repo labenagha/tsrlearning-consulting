@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    padding: 0;
-    margin: 0;
+    padding:1.5rem;
+    margin:0;
     scroll-behavior: smooth;
     height: auto;
     width: auto;
@@ -14,22 +14,20 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    margin-top: 20px;
 }
   
 .logo-wrapper img {
     width: 80px;
     height: 80px;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-radius: 25px;
 }
-  
+
 .service-container {
     display: flex;
     align-items: center;
     gap: 1.5rem;
 }
-  
+
 .service-container ul {
     display: flex;
     list-style: none;
@@ -37,7 +35,7 @@ nav {
     padding: 0;
     gap: 1.5rem;
 }
-  
+
 .service-container ul li a {
     text-decoration: none;
     font-family: "Poppins", serif;
@@ -45,20 +43,20 @@ nav {
     font-size: large;
     color: black;
 }
-  
+
 .btn-cta {
     width: 150px;
     height: 30px;
     border-radius: 3rem;
     font-family: "Poppins", serif;
     cursor: pointer;
-    background-color: darkorange;
+    background-color: rgb(222, 124, 3);
     color: white;
     border: none;
 }
-  
+
 button:hover {
-    background-color: darkblue;
+    background-color: blue;
     color: white;
 }  
 
@@ -67,6 +65,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: fill;
 }
 
 .container img {
@@ -76,10 +75,10 @@ button:hover {
 .cover-image-right-box {
     background-color: blue;
     border-radius: 20px;
-    height: 400px;
-    width: 80%;
+    height: 500px;
+    width: 1200px;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .cover-image-right-box h1 {
@@ -103,7 +102,7 @@ button:hover {
     margin-top: 90px;
     color: white;
     font-family: "Poppins", serif;
-    font-weight: 900;
+    font-weight: 200;
     text-align: right;
     margin-top: 35px;
     font-size: smaller;
@@ -114,6 +113,7 @@ button:hover {
     font-weight: bolder;
 }
 
+
 .circles-left-box {
     height: 50px;
     width: 50px;
@@ -122,8 +122,27 @@ button:hover {
     border-radius: 800px;
     position: absolute;
     margin-right: 1050px;
-    margin-top: 300px;
+    margin-top: 10px;
 }
+
+.circles-left-box-2 {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(45deg, #599cee 10%, #FF9900);
+    padding-left: 210px;
+    border-radius: 800px;
+    position: absolute;
+    margin-right: 1250px;
+    margin-top: 50px;
+}
+
+/* .circles-left-box-3 {
+    height: 400px;
+    width: 50px;
+    background: goldenrod;
+    position: absolute;
+    margin-right: 1500px;
+} */
 
 .orange-circle::before {
     content: '';
@@ -138,7 +157,7 @@ button:hover {
 
 .cover-image-relative-box {
     padding-left: 150px;
-    margin-top: 500px;
+    margin-top: 481px;
     height: 80px;
     width: 400px;
     background-color: darkorange;
@@ -161,5 +180,455 @@ button:hover {
     font-family: "Poppins", serif;
 }
 
-/* Page Reponsiveness */
-/* laptop */
+
+/* Companies trust session */
+.companies-trust-container > div {
+    background-color: #fbfae0;
+    padding: 5px;
+    align-items: center;
+}
+
+.companies-trust-container h2 {
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    font-family: "Poppins", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.companies-trust-container span {
+    color: #FF9900;
+}
+
+.companies-trust-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    border-radius: 1rem;
+    width: 250px;
+    background-color: transparent;
+    border: none;
+}
+
+.logo-zip {
+    width: 170px;
+    border-radius: 1rem;
+}
+
+.logo-paypal {
+    width: 226px;
+    border-radius: 1rem;
+}
+
+
+/* services */
+.main-company-tab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.company-tab-container {
+    background-color: rgba(241, 234, 234, 0.418);
+    padding: 12px 12px 12px 12px;
+    border-radius: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    color: black;
+}
+
+.company-tab-container:hover {
+    cursor: pointer;
+    background-color: rgb(184, 178, 178);
+    color: white;
+    font-weight: 400;
+}
+
+.show-case-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.show-case-container > div > img {
+    height: 450px;
+}
+
+.second-service-image {
+    display: flex;
+    gap: 40px;
+    padding: 120px;
+}
+
+.second-service-image img {
+    float: left;
+    height: 250px;
+}
+
+/* divinding line */
+.divider {
+    border-bottom: 3px solid #f2efef;
+    margin: 1em 0;
+}
+
+
+/* Pricing Session */
+.text-price {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.text-price h2 {
+    font-family: "Poppins", serif;
+    font-size: 40px;
+    font-size: 100;
+}
+
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.pricing-box {
+    position: relative; /* Needed for “Most Popular” ribbon */
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Most Popular ribbon on Gold box */
+.pricing-box.gold {
+    border-top: 1px solid gold; /* Gold top border */
+}
+
+.pricing-box.gold .most-popular {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: gold;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 0 0 0 5px;
+}
+
+/* Vertically oriented text (“per seat per month”) */
+.price-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.vertical-text {
+    writing-mode: col;
+    text-orientation: mixed;
+    margin-right: 8px;
+    font-size: 0.8rem;
+    color: #777;
+  }
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Button styling */
+.get-started {
+    cursor: pointer;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.get-started:hover {
+    background: #0056b3;
+}
+
+ul {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+
+li .fa {
+    margin-right: 6px;
+    color: #007BFF;
+}
+
+/* divinding line */
+.divider {
+    border-bottom: 3px solid #f2efef;
+    margin: 1em 0;
+}
+
+
+section h2 {
+    font-size: 2.2rem;
+    font-family: "Poppins", serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section span {
+    color: blue;
+    font-weight: 400;
+}
+
+.feedback-container {
+    display: flex;
+    gap: 100px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    padding: 5rem;
+}
+
+.happy-client-right-box {
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 50px;
+    margin-left: 320px;
+}
+
+.happy-client-right-box img {
+    float: left;
+    height: 150px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.right-arrow img {
+   height: 50px;
+   width: 50px;
+   margin-left: 500px;
+}
+
+.right-arrow img:hover {
+    cursor: pointer;
+}
+
+
+/* Free 7days consultation */
+.free-7days-triar {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    padding: 30px;
+}
+
+.free-7days-triar h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top: 10px;
+}
+
+.free-7days-triar > div {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: orange;
+    height: 40px;
+    width: 150px;
+    border-radius: 2rem;
+    font-family: "Poppins", serif;
+    color: white;
+    font-weight: 600;
+    padding: 6px;
+    align-items: center;
+}
+
+.free-7days-triar > div:hover {
+    cursor: pointer;
+}
+
+/* More trust session */
+.more-client-trust-container h4 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Poppins", serif;
+    font-size: 300;
+}
+
+.base-client-trust-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.more-client-trust-container img {
+    width: 150px;
+    margin-top: 50px;
+}
+
+/* Frequntly asked questions */
+
+.faq-container {
+    padding: 3rem;
+}
+
+.faq-text {
+    margin-bottom: 80px;
+}
+
+.faq-question {
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.faq-box {
+    border: 2px solid rgba(235, 223, 223, 0.787);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px; 
+}
+
+.faq-box button {
+    border: none;
+    background: none;
+    justify-content: space-between;
+    color: black;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.toggle-icon img {
+    height: 25px;
+}
+
+
+
+/* footer session */
+.footer-container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    background-color: rgba(239, 238, 238, 0.957);
+    margin-top: 120px;
+    height: 400px;
+    width: 1200px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-items img {
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.footer-items ul {
+    margin-top: 180px;
+}
+
+.footer-items a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon img {
+    height: 30px;
+    border-radius: 10px;
+}
+/* .site-footer {
+    max-width: 1400px; 
+    margin: 0 auto;
+    background-color: rgba(239, 238, 238, 0.957);
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 120px;
+} */
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.footer-bottom p {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+
+
+
+
+/* .footer-box {
+    max-width: 1400px; 
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-bottom: 60px;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 120px;
+    display: flex;
+} */
+/* 
+.footer-col-1 img {
+    height: 45px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.footer-col-1 ul a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-col-2 ul a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-col-2 > ul {
+    margin-top: 60px;
+}
+
