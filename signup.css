@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    font-family: "Poppins", serif;
+    background-image: url(./assets/pexels-rdne-8124200.jpg);
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-logo {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+
+.image-logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background-color: blue;
+}
+
+.left-box {
+    width: 40%;
+    height: 100vh;
+    background-color: blue;
+}
+
+.left-box span {
+    color: darkorange;
+    font-weight: 300;
+}
+
+.left-box > div > p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.mb-3 {
+    color: white;
+}
+
+form {
+    margin-left: 100px;
+}
+
+.form-control {
+    width: 80%;
+    height: auto;
+}
+
+.form-text {
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+}
+
+.footer-buttom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-buttom p {
+    color: white;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+.footer-buttom img {
+    height: 20px;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.footer-left {
+    margin-left: 100px;
+}
+
+.footer-right:hover {
+    cursor: pointer;
+}
+
+.btn-google-sign-up {
+    display: flex;
+    gap: 8px;
+    background-color: darkblue;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.btn-google-sign-up img {
+    height: 20px;
+}
