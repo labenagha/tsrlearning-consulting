@@ -40,6 +40,26 @@ body {
     color: white;
 }
 
+.footer-left p {
+    color: white;
+}
+
+.footer-right:hover {
+    cursor: pointer;
+}
+
+
+.footer-buttom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+}
+
 .btn-google-sign-up {
     display: flex;
     gap: 8px;
@@ -56,9 +76,21 @@ body {
     height: 20px;
 }
 
-.footer-buttom {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 120px;
-    gap: 10px;
+.btn-google-sign-up:hover {
+    background-color: orange;
+}
+
+.main-container p {
+    margin-top: 20px;
+    color: white;
+}
+
+.main-container span {
+    font-weight: 500;
+    font-size: 20px;
+    color: orange;
+}
+
+.main-container a {
+    text-decoration: none;
 }
